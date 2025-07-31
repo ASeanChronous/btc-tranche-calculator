@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './index.css';  // Add this line!
 
 const BTCTrancheCalculator = () => {
   const [btcPrice, setBtcPrice] = useState(117699);
