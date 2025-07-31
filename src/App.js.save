@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 
+const BTCTrancheCalculator = () => {import React, { useState, useEffect } from 'react';
+import './index.css';  // Keep only this one with semicolon
+
 const BTCTrancheCalculator = () => {
   const [btcPrice, setBtcPrice] = useState(117699);
   const [trancheSize, setTrancheSize] = useState(4000);
